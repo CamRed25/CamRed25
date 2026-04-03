@@ -4,9 +4,9 @@ I build tools for Linux and gaming — mostly systems-level Rust.
 
 ## What I'm Working On
 
-- **NirNDE** — A modular, Rust-only Wayland desktop environment built on Niri. Custom components for everything: notifications, clipboard, hotkeys, theming, wallpaper, lock screen, and more.
+- **NirNDE** — A modular, Rust-only Wayland desktop environment built on Niri. Custom components for everything: notifications, clipboard, hotkeys, theming, wallpaper, lock screen, and more. (will start releasing each component in parts.)
 - **Oracle** — An MCP server that exposes a live NirNDE session to AI assistants like Claude.
-- **Mantle Manager** — A mod manager for Bethesda games, written in Rust with GTK4.
+- **Mantle Manager** — A mod manager for Bethesda games, written in Rust with GTK4. (currently on hold. planning to replace it with a better version.)
 
 ## Tech Stack
 
