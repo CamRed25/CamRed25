@@ -4,9 +4,11 @@ I build tools for Linux and gaming — mostly systems-level Rust.
 
 ## What I'm Working On
 
-- **NirNDE** — A modular, Rust-only Wayland desktop environment built on Niri. Custom components for everything: notifications, clipboard, hotkeys, theming, wallpaper, lock screen, and more. (will start releasing each component in parts.)
-- **Oracle** — An MCP server that exposes a live NirNDE session to AI assistants like Claude.
-- **Mantle Manager** — A mod manager for Bethesda games, written in Rust with GTK4. (currently on hold. planning to replace it with a better version.)
+- **Niri Shell** — A unified GTK4 shell for the [Niri](https://github.com/YaLTeR/niri) Wayland compositor. Panel, dock, launcher, notification daemon, quick settings, polkit agent, power management, and settings GUI — all in one process connected to Niri via IPC.
+- **AetheriaFS** — A Rust-native FUSE-based virtual filesystem for Bethesda game modding on Linux. Presents BSA archives and loose mod files as a single unified directory tree — no extraction required, conflict-resolving, copy-on-write, and daemon-backed.
+- **AetheriaMM** — GTK4 frontend for AetheriaFS. Mod list, profile management, drag-and-drop load order, FOMOD installer, conflict viewer, and SKSE launcher. Requires a running `aetheria_daemon`.
+- **Mantle Manager** — A ground-up Linux-native mod manager for Bethesda games built in Rust with GTK4/libadwaita. Core mod management, VFS, FOMOD, and load order are implemented. Currently in alpha; on hold while Aetheria matures.
+- **NUMIDIUM** — A hobby programming language with an Elder Scrolls/Dovahzul theme. Rust-based pipeline: lexer → parser → resolver → codegen → Brass VM. Currently in early lexer stage.
 
 ## Tech Stack
 
@@ -17,6 +19,7 @@ I build tools for Linux and gaming — mostly systems-level Rust.
 ![Tokio](https://img.shields.io/badge/Tokio-%23E6522C?style=for-the-badge&logoColor=white)
 ![Wayland](https://img.shields.io/badge/Wayland-%23FFBC00?style=for-the-badge&logoColor=black)
 ![SQLite](https://img.shields.io/badge/SQLite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+![FUSE](https://img.shields.io/badge/FUSE-%23333333?style=for-the-badge&logoColor=white)
 
 ## GitHub Stats
 
